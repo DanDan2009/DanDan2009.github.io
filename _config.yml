@@ -4,7 +4,7 @@ SEOTitle: 蛋蛋的博客 | shanyimin Blog
 header-img: img/home-bg.jpg
 email: sym3099@gmail.com
 description: "关于iOS与Python | 蛋蛋 | 这里是 @蛋蛋 的个人博客，。"
-keyword: "shan,蛋蛋, huxpro, 博客, 个人网站, 互联网, iOS,Python"
+keyword: "shan,蛋蛋, , 博客, 个人网站, 互联网, iOS, Python"
 url: "https://shanyimin.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -68,7 +68,7 @@ ga_domain: huangxuan.me
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "好好码代码，<br>认真过生活"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar-shanyimin.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
