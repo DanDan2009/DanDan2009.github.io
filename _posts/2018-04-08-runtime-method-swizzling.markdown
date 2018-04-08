@@ -16,106 +16,6 @@ tags:
 
 > 利用Runtime拦截已经存在的方法大家应该都很熟悉了，本文主要介绍一些注意点和细节问题。
 
-runtime 之Method Swizzling.md
-参考资料：iOS黑魔法－Method Swizzling ： http://www.cocoachina.com/ios/20160121/15076.html
-Objective-C Method Swizzling 的最佳实践 ：http://blog.leichunfeng.com/blog/2015/06/14/objective-c-method-swizzling-best-practice/
-1. Method Swizzling也是iOS中AOP(面相切面编程)的一种实现方式，我们可以利用苹果这一特性来实现AOP编程。
-
-
-
-
-+load vs +initialize
-swizzling应该只在+load中完成。 在 Objective-C 的运行时中，每个类有两个方法都会自动调用。+load 是在一个类被初始装载时调用，+initialize 是在应用第一次调用该类的类方法或实例方法前调用的。两个方法都是可选的，并且只有在方法被实现的情况下才会被调用。
-
-+load方法 启动APP就会调用，不管有没有用到该类
-+initialize 只有第一次调用该类的类方法或实例方法 前调用的
-
-
-		//通过方法名来获取对应的Method
-        Method originalMethod = class_getInstanceMethod(class, originalSelector);
-        Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
-        // 如果是类方法，不是实例方法，用如下
-        // Class class = object_getClass((id)self);
-        // ...
-        // Method originalMethod = class_getClassMethod(class, originalSelector);
-        // Method swizzledMethod = class_getClassMethod(class, swizzledSelector);
-
-
-//    object_getClass((id)self)
-//    objc_getClass((id)self)
-objc_getClass参数是类名的字符串，返回的就是这个类的类对象；
-object_getClass参数是id类型，它返回的是这个id的isa指针所指向的Class，如果传参是Class，则返回该Class的metaClass。
-object_getClassName
-
-
-### 批量替换
-#if __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_11_0
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        
-        SEL selectors[] = {
-            @selector(initWithFrame:),
-        };
-        for (NSUInteger index = 0; index < sizeof(selectors) / sizeof(SEL); ++index) {
-            SEL originalSelector = selectors[index];
-            SEL swizzledSelector = NSSelectorFromString([@"dd_" stringByAppendingString:NSStringFromSelector(originalSelector)]);
-            
-            Method originalMethod = class_getInstanceMethod(self, originalSelector);
-            Method swizzledMethod = class_getInstanceMethod(self, swizzledSelector);
-            
-            BOOL addedSuccess = class_addMethod(self, originalSelector, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod));
-            if (addedSuccess) {
-                class_replaceMethod(self, swizzledSelector,
-                                    method_getImplementation(originalMethod),
-                                    method_getTypeEncoding(originalMethod));
-            } else {
-                method_exchangeImplementations(originalMethod, swizzledMethod);
-            }
-        }
-    });
-#endif
-
-
-
-1 没有添加方法：
-instanceMethod: test12
-
-classMethod: classMetdod
-classMethod: instanceMethodList
-classMethod: classMethodList
-
-2 添加方法之后：
-instanceMethod: test12
-instanceMethod: mrc_viewWillAppear
-
-classMethod: classMetdod
-classMethod: instanceMethodList
-classMethod: classMethodList
-classMethod: newClassMetdod
-
-
-3 添加方法之后&交换类方法之后class_addMethod 添加失败之后，走class_replaceMethod方法:
-instanceMethod: mrc_viewWillAppear
-instanceMethod: test12
-
-classMethod: newClassMetdod
-classMethod: load
-classMethod: classMetdod
-classMethod: instanceMethodList
-classMethod: classMethodList
-
-4 添加方法之后&交换类方法之后class_addMethod 添加失败之后，走method_exchangeImplementations方法:
-
-instanceMethod: mrc_viewWillAppear
-instanceMethod: test12
-
-classMethod: newClassMetdod
-classMethod: load
-classMethod: classMetdod
-classMethod: instanceMethodList
-classMethod: classMethodList
-
-
 
 #Objective-C Runtime Method Swizzling 实践
 ```
@@ -172,7 +72,7 @@ SEL originalSelector = @selector(originMethod);//originMethod 已经存在的方
         method_exchangeImplementations(originalMethod, swizzledMethod);
      ```
    
-### u
+
 
 要回到这个问题首首先说一下class_addMethod这个方法的做作用，
 class_addMethod就是给类添加新的方法，如果类本身已经存在这个方法，就会添加失败返回NO，这里的类本身的方法，意思是不包括从父类继承过来的方法，什么意思？比如father 类有一个eat方法，son类继承自father类，但是son类没有重写父类（也就是father类）的eat方法，那么使用 eat 类使用class_addMethod添加eat方法，就能添加成功。
@@ -271,7 +171,7 @@ class_replaceMethod(class, swizzledSelector, method_getImplementation(originalMe
 
 总结：判断class_addMethod这种写法是比较强壮的写法，如果你确定要交换的方法存在当前类中，可以直接交换。
 
-要代码？我不会提供代码的，只有自己敲一遍才能理解的透彻。
+
 
 
 
