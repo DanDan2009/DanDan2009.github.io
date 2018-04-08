@@ -60,8 +60,8 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: https://shanyimin.github.io/
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: https://shanyimin.github.io/
 
 
 
@@ -73,7 +73,7 @@ sidebar-avatar: /img/avatar-shanyimin.jpg      # use absolute URL, seeing it's u
 
 
 # Featured Tags
-featured-tags:   false                   # whether or not using Feature-Tags   true
+featured-tags:   true                   # whether or not using Feature-Tags  
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 
