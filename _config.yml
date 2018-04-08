@@ -12,10 +12,10 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
+weibo_username:     wssym1990
+zhihu_username:     guduyun
 github_username:    shanyimin
-twitter_username:   huxpro
+twitter_username:   guduyun
 #facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
 
@@ -48,7 +48,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+disqus_username: shanyimin
 
 # Netease setttings
 netease_comment: false
@@ -61,7 +61,7 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_domain: https://shanyimin.github.io/
 
 
 
@@ -73,7 +73,7 @@ sidebar-avatar: /img/avatar-shanyimin.jpg      # use absolute URL, seeing it's u
 
 
 # Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
+featured-tags:   false                   # whether or not using Feature-Tags   true
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 
