@@ -1,3 +1,20 @@
+---
+layout:     post
+title:      supervisor 监控nginx 一直在重启的问题
+subtitle:   "supervisor 监控nginx 一直在重启的问题"
+date:       2015-10-28 12:00:00
+author:     "Dan"
+header-img: "img/home-bg-o.jpg"
+tags:
+    - supervisor
+    - 后端开发
+    - nginx
+    - python
+---
+
+
+>下滑这里查看更多内容
+
 # supervisor 监控nginx 一直在重启的问题
 supervisor 监控nginx ，写好配置文件之后，发现一直在重启，排查之后发现是命令不对：
 
