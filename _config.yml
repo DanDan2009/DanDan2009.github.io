@@ -85,7 +85,7 @@ service-worker: true
 
 
 # Friends
-Recommend: [
+friends: [
     {
         title: "sunnyxx",
         href: "http://blog.sunnyxx.com/"
