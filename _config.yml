@@ -1,21 +1,21 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
+title: Dan
+SEOTitle: 蛋蛋的博客 | shanyimin Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "关于前端与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
-url: "https://huangxuan.me"              # your host, for absolute URL
+email: sym3099@gmail.com
+description: "关于iOS与Python | 蛋蛋 | 这里是 @蛋蛋 的个人博客，。"
+keyword: "shan,蛋蛋, , 博客, 个人网站, 互联网, iOS, Python"
+url: "https://shanyimin.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-twitter_username:   huxpro
+weibo_username:     wssym1990
+zhihu_username:     guduyun
+github_username:    shanyimin
+twitter_username:   guduyun
 #facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
 
@@ -48,7 +48,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+disqus_username: https-shanyimin-github-io
 
 # Netease setttings
 netease_comment: false
