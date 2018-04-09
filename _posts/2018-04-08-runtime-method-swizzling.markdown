@@ -10,11 +10,11 @@ catalog:    true
 tags:
     - iOS
     - Runtime
-    - P
 ---
 
 
-> 利用Runtime拦截已经存在的方法大家应该都很熟悉了，本文主要介绍一些注意点和细节问题。
+> 利用Runtime拦截已经存在的方法大家应该都很熟悉了， 本文主要介绍一些注意点和细节问题。
+> Runtime Method Swizzling
 
 
 ## Objective-C Runtime Method Swizzling 实践
