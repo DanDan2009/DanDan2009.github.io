@@ -3,7 +3,7 @@ layout:     post
 title:      "Runtime Method Swizzling 实战"
 subtitle:   "iOS黑魔法－Method Swizzling"
 date:       2018-04-08 15:00:00
-author:     "shanyimin"
+author:     "Dan"
 header-img: "img/post-bg-nextgen-web-pwa.jpg"
 header-mask: 0.3
 catalog:    true
