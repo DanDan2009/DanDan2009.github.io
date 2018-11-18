@@ -1,7 +1,7 @@
 
 ---
 layout:     post
-title:      加速你的编码技能的关键
+title:      "加速你的编码技能的关键"
 subtitle:   " The Key To Accelerating Your Coding Skills"
 date:       2018-11-12 12:00:00
 author:     "Dan"
