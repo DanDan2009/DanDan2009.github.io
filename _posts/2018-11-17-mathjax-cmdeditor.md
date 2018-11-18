@@ -121,7 +121,13 @@ $$ \sideset{^1_2}{^3_4}\bigotimes $$
 |\lbrace|$\lbrace$|\rbrace|$\rbrace$|
 
 
+
 - 例子：
+
+
+
+
+
 
 ```
 $$ f(x,y,z) = 3y^2z \left( 3+\frac{7x+5}{1+y^2} \right) $$
@@ -132,9 +138,9 @@ $$ f(x,y,z) = 3y^2z \left( 3+\frac{7x+5}{1+y^2} \right) $$
 
 - 例子：
 ```
-$$ \left. \frac{{\rm d}u}{{\rm d}x} \right| _{x=0} $$
+$$ \left. \frac{\{\rm d}u}{\{\rm d}x} \right| _{x=0} $$
 ```
-- 显示：$$ \left. \frac{{\rm d}u}{{\rm d}x} \right| _{x=0} $$
+- 显示：$$ \left. \frac{\{\rm d}u}{\{\rm d}x} \right| _{x=0} $$
 
 ##4．如何输入分数
 
