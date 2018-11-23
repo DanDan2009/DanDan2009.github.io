@@ -28,7 +28,7 @@ It doesn’t start without asking: What the heck data structure is?
 > It’s an intentional arrangement of a collection of data that we’ve built.
 >是我们构建的数据集合的有意安排。
 
-### Intentional Arrangement 故意安排
+###  Intentional Arrangement 故意安排
 
 The intentional arrangement means the arrangement done on purpose to impose, to enforce, some kind of systematic organization on the data.
 故意安排是指有目的的安排，目的是对数据进行某种系统的组织。
@@ -37,7 +37,7 @@ Because it’s useful, it makes our lives easier, and it’s easy to manage when
 因为它是有用的，它使我们的生活更容易，当你把相关的信息放在一起时，它很容易管理。
 
 
-### Data Structures In our Life 我们生活中的数据结构
+###  Data Structures In our Life 我们生活中的数据结构
 
 We need data structures in our programs because we think this way as human beings.
 在我们的程序中，我们需要数据结构，因为我们人类就是这样思考的。
@@ -46,7 +46,7 @@ We need data structures in our programs because we think this way as human being
 A recipe is an actual data structure, as is a shopping list, a telephone directory, a dictionary, etc. They all have a structure, they have a format.
 菜谱是一个实际的数据结构，就像购物清单、电话簿、字典等一样。它们都有一个结构，它们都有一个格式。
 
-### Data Structure and Object Oriented Programming 数据结构和面向对象编程
+###  Data Structure and Object Oriented Programming 数据结构和面向对象编程
 
 Now if you’re an object oriented programmer, you may be thinking, Well isn’t this what we do with classes and objects?.
 如果你是一个面向对象的程序员，你可能会想，这难道不是我们对类和对象所做的吗?
@@ -57,7 +57,7 @@ I mean, we define these real-world objects in a program because we think this wa
 And yes, absolutely. Objects are a type of data structure, and not the only one.
 是的,当然。对象是一种数据结构，而不是唯一的一种。
 
-### Five Fundamental Behaviors 五种基本行为
+###  Five Fundamental Behaviors 五种基本行为
 
 How to access, insert, delete, find, & sort. These are the operations that you will most likely going to perform.
 如何访问、插入、删除、查找和排序。这些是您最有可能执行的操作。
@@ -88,10 +88,10 @@ The array is the most fundamental, the most commonly used data structure across 
 
 ![](/img/15428774480261.jpg)
 
-###Indexes 索引
+###  Indexes 索引
 The indexes are in order, they are zero-based index in most languages, but, that’s not the case with other few languages.
 
-###Size 的尺寸
+###  Size 的尺寸
 
 The simplest arrays are fixed size, also called immutable, meaning unchangeable arrays. They can be created initially at any size. But once the array is created, you can’t add or remove elements from it.
 最简单的数组是固定大小的，也称为不可变数组，意思是不能改变的数组。它们最初可以以任何大小创建。但是一旦创建了数组，就不能从其中添加或删除元素。
@@ -99,7 +99,7 @@ The simplest arrays are fixed size, also called immutable, meaning unchangeable 
 Sometimes the ability to dynamically add or remove elements from it while the program is running is made available in the standard array in a language, and sometimes you have multiple different array types, depending on whether you need a fixed or resizable array.
 有时，在程序运行时动态添加或删除元素的功能可以在语言的标准数组中使用，有时您可以使用多种不同的数组类型，这取决于您需要的是固定的数组还是可调整大小的数组。
 
-###Data Type 数据类型
+###  Data Type 数据类型
 
 Simple arrays are typically restricted to a specific type of data. It’s an array of integers, or an array of booleans. But some languages allow you to create arrays of just generic objects, meaning you could put different data types.
 简单数组通常仅限于特定类型的数据。它是一个整数数组，或者布尔数组。但有些语言允许创建泛型对象的数组，这意味着可以放置不同的数据类型。
@@ -143,7 +143,7 @@ Rows have different number of stones
 行有不同数量的石头
 
 
-###When To Use Jagged Arrays 何时使用交错数组
+###  When To Use Jagged Arrays 何时使用交错数组
 
 
 If you have a multidimensional array which records the number of sales every day. The first index is for the month, while the second is for the day.
@@ -169,7 +169,7 @@ Most languages provide some kind of resizeable array, or dynamic array, or mutab
 大多数语言都提供某种可调整的数组、动态数组或可变数组。在Java中，标准数组是固定大小和固定数据类型的，但是，您也可以使用ArrayList创建可调整大小的数组。
 
 
-###Adding & Removing 添加和删除
+###  Adding & Removing 添加和删除
 
 
 The location where we add a new element or remove an existing one does matter, because adding or removing an element at the end is faster than at some where else.
@@ -196,7 +196,7 @@ Sorting people by height —pleacher.com
 按高度分类
 
 
-###The Built-In Sorting Functionality 内置的排序功能
+###  The Built-In Sorting Functionality 内置的排序功能
 
 When we’re sorting arrays, there are things you need to understand the built-in sort functionality.
 当我们对数组进行排序时，您需要了解内置的排序功能。
@@ -206,7 +206,7 @@ Second, Is the built-in sort functionality will attempt to sort an existing arra
 其次，内置的排序功能是试图对现有数组进行排序，还是创建另一个副本?大多数语言将尝试对现有数组进行排序，而少数语言将创建原始数组的新副本，以包含已排序的数组。
 
 
-###Sorting Custom Objects 排序自定义对象
+###  Sorting Custom Objects 排序自定义对象
 
 In object orientated languages, you often have arrays of your own custom objects, not just arrays of simple numeric or even string values.
 在面向对象的语言中，您通常拥有自己定制对象的数组，而不仅仅是简单的数字数组甚至字符串数组。
@@ -239,7 +239,7 @@ While linear searches are simple to understand and they are easy to write and th
 虽然线性搜索很容易理解，也很容易编写，而且会工作，但是，它们很慢。元素越多，速度越慢。
 
 
-###Data Needs To Be Ordered 需要对数据进行排序
+###  Data Needs To Be Ordered 需要对数据进行排序
 
 
 If there is no order, no predictable sequence to the values in the array, then, there may be no other options than check all the array elements.
@@ -250,7 +250,7 @@ So, data must be ordered in a way so that we can use an algorithm other than lin
 因此，数据的排序方式必须是线性搜索之外的算法。因此，对这些要素进行某种排序越来越重要。
 
 
-###The Inherit Challenge of Data Structures 数据结构的继承挑战
+###  The Inherit Challenge of Data Structures 数据结构的继承挑战
 
 
 You may sometimes agree to use a slow search ability, because the only way of fixing that is to sort the array, which in turn will add a performance hit that it’s simply not worth it.
@@ -284,7 +284,7 @@ There is a general theoretical programming concept of a list, and there is the s
 列表有一个一般的理论编程概念，还有一个列表数据结构的具体实现，它可能采用了这个基本的列表概念并添加了一大堆功能。列表既可以实现为链表(单链表、双链表、循环链表、循环链表)，也可以实现为动态数组。
 
 
-###An Array Vs A List 数组Vs列表
+###  An Array Vs A List 数组Vs列表
 
 A list is a different kind of data structure from an array.
 列表是一种不同于数组的数据结构。
@@ -340,7 +340,7 @@ Doubly Linked List — wikipedia
 在大多数语言中，>链表通常以双链表的形式实现。
 
 
-###The Singly Vs Doubly Linked List 单链表VS双链表
+###  The Singly Vs Doubly Linked List 单链表VS双链表
 
 
 **Adding** operation is clearly less work in a singly linked list, because doubly linked list requires changing more links than a singly linked list.
@@ -394,27 +394,27 @@ Stack of dirty plates
 脏盘子堆
 
 
-###Stack Implementation 栈的实现
+###  Stack Implementation 栈的实现
 
 A stack can be easily implemented either using an array or a linked list
 堆栈可以很容易地通过数组或链表来实现
 
 
-###Usage of Stacks 栈的使用
+###  Usage of Stacks 栈的使用
 
 
 Stack is not limited to only model the real world situations (same for queues). One of the best uses for a stack in programming is when parsing code or expressions, where you need to do something like validating the correct amount of opening and closing curly braces, square brackets or parenthesis.
 Stack不仅限于模拟真实世界的情况(队列也是如此)。在编程中，栈的最佳用法之一是解析代码或表达式时，您需要做一些事情，比如验证正确的左大括号、方括号或括号的数量。
 
 
-###The Basic Operations of Stacks 栈的基本操作
+###  The Basic Operations of Stacks 栈的基本操作
 
 
 They are: push(), pop(), & peek(). push is for pushing a new element on the top of the stack, and pop will return (and remove) the element at the top, while peek will get the element at the top without removing it.
 它们是:push()、pop()和peek()。push用于在堆栈顶部推送一个新元素，pop将返回(并删除)顶部的元素，而peek将获得顶部的元素，而不删除它。
 
 
-###Stacks Vs Arrays Vs Linked Lists 栈Vs数组Vs链表
+###  Stacks Vs Arrays Vs Linked Lists 栈Vs数组Vs链表
 
 Working with stack is simpler than working with arrays or linked lists, because there is less you can do with a stack.
 使用堆栈比使用数组或链表更简单，因为使用堆栈可以做的事情更少。
@@ -441,24 +441,24 @@ It’s a collection of items where we add items to the end and remove items from
 Queue of people 排队的人
 
 
-###Queue Implementation 队列实现
+###  Queue Implementation 队列实现
 
 As with stacks, a queue can be implemented either using an array or a linked list.
 与堆栈一样，可以使用数组或链表实现队列。
 
 
-###Usage of Queues 使用队列
+###  Usage of Queues 使用队列
 
 
 Queues are very commonly used in concurrency situations to keep track of what tasks are waiting to be performed and making sure we take them in that order.
 队列在并发情况下非常常用，用于跟踪等待执行的任务，并确保按顺序处理它们。
 
-### The Basic Operations of Queues 队列的基本操作
+###   The Basic Operations of Queues 队列的基本操作
 Just like a stack: add(), remove(), & peek().
 就像一个堆栈:add()， remove()和peek()。
 
 
-###Priority Queues 优先级队列
+### Priority Queues 优先级队列
 
 
 Some languages offer a version of a queue, called a priority queue. This allows you to arrange elements in the queue based on their priority.
@@ -471,14 +471,14 @@ It’s a queue, where items with higher priority step ahead of items with lower 
 ```
 
 
-###How Priority Queues Works  优先队列是如何工作的
+### How Priority Queues Works  优先队列是如何工作的
 
 
 When you add items that have the same priority, they will queue as normal in a first in, first out order. If something comes along with a higher priority, then it will go ahead of them in the queue.
 当您添加具有相同优先级的项时，它们将按照正常顺序排队。如果有更高优先级的东西出现，那么它将在队列中走在它们前面。
 
 
-###Defining The Priority 定义优先级
+### Defining The Priority 定义优先级
 
 
 You can define based on what an element has higher, lower, or equal priority. This done by implementing a comparator or a compare function (as when sorting arrays), where you provide your own logic for comparing the priority between elements.
@@ -526,7 +526,7 @@ var user = {
 关联数组的实现有不同的名称。在Objective-C和Python中，它们被称为字典。
 
 
-###The Order of Elements 元素的顺序
+### The Order of Elements 元素的顺序
 
 Unlike a basic array, In an associative array the keys do not need to be in any specific order. Because order is not a concern in associative arrays.
 与基本数组不同，关联数组中的键不需要以任何特定顺序排列。因为顺序与关联数组无关。
@@ -535,13 +535,13 @@ Sure, you might find it useful to sort them by key. You might find it useful to 
 当然，您可能会发现按键排序很有用。您可能会发现按值对它们进行排序很有用，或者根本不需要对它们进行排序。
 
 
-###Key Duplicates 键重复
+### Key Duplicates 键重复
 
 The same way that you don’t get the same index number appearing twice in a basic array, there can be no duplicate keys, and keys must be unique in an associative array.
 同样地，在基本数组中不会出现两次相同的索引号，不能有重复的键，键在关联数组中必须是唯一的。
 
 
-###Keys & Values Data Types 键&值数据类型
+### Keys & Values Data Types 键&值数据类型
 
 
 You can usually use any data type as either the key or the value. It is common to use a string as a key.
@@ -573,13 +573,13 @@ Hashing is commonly used with passwords 哈希通常与密码一起使用
 引用可能只是一个整数，或者字母和数字，等等。
 
 
-###Why Using Hashing? 为什么使用散列?
+### Why Using Hashing? 为什么使用散列?
 
 
 Because being able to take a complex object, and hash it down to a single integer representation. So, we can use that integer value to get to a certain location in the data structure.
 因为可以把一个复杂的对象，哈希到一个整数表示。因此，我们可以使用这个整数值来到达数据结构中的某个位置。
 
-### Hashing Is Not Encryption 散列不是加密
+###  Hashing Is Not Encryption 散列不是加密
 Hash functions are not reversible; They are one way. So, you cannot convert a hash value result back to the original data. Therefore, you lose information when hashing, that’s okay, that’s intentional.
 哈希函数是不可逆的;它们是单向的。因此，您不能将哈希值结果转换回原始数据。因此，在哈希过程中会丢失信息，这是故意的。
 
@@ -588,14 +588,14 @@ Hash functions are not reversible; They are one way. So, you cannot convert a ha
 Hashing Vs Encryption — ssl2buy.com 哈希Vs加密- ssl2buy.com
 
 
-###Hashing Function Implementation 哈希函数实现
+### Hashing Function Implementation 哈希函数实现
 
 
 Say we have a person class defined, and we want a hash function defined on this class. The hash function should return a specific single reference (usually an an integer) for a specific person object. This single integer is generated using the data in a person object (firstname, lastname, birth date, …etc).
 假设我们定义了一个person类，我们想在这个类上定义一个哈希函数。哈希函数应该为特定的person对象返回一个特定的引用(通常是一个整数)。这个整数是使用person对象中的数据(firstname、lastname、生日等等)生成的。
 
 
-###Hashing Rules 哈希规则
+### Hashing Rules 哈希规则
 
 
 1. If we take the exact same object, with this same data, and feed it into the hash function again, I would expect the same hash result. 如果我们用同样的对象，同样的数据，再把它输入哈希函数，我期望得到相同的哈希结果。
@@ -607,7 +607,7 @@ Say we have a person class defined, and we want a hash function defined on this 
 3. While two equal objects should produce the same hash value, two equal hash values does not guarantee they came from equal objects, Why?Because two different objects might, under some circumstances, deliver the same result out of a hash function (See Hashing Collision).  两个相等的对象应该产生相同的哈希值，但是两个相等的哈希值不能保证它们来自相等的对象，为什么?因为在某些情况下，两个不同的对象可能会从哈希函数传递相同的结果(参见哈希冲突)。
 
 
-###Hashing Collision 哈希碰撞
+### Hashing Collision 哈希碰撞
 
 It’s when we have different objects with different data, but giving the same hash value result.
 当我们有不同的对象和不同的数据，但是得到相同的哈希值时。
@@ -634,13 +634,13 @@ It’s a typical data structure to implement an associative arrays; mapping keys
 Mapping numbers (keys) to boxes 将数字(键)映射到框
 
 
-###Hash Tables Vs Arrays Vs Lined List 哈希表Vs数组Vs列表
+### Hash Tables Vs Arrays Vs Lined List 哈希表Vs数组Vs列表
 
 
 The big benefit of hash tables over arrays and over linked lists is they’re very fast, both for looking at whether an item exists or finding a specific item in a hash table, and for inserting and deleting items.
 与数组和链表相比，哈希表的最大好处是它们非常快，既可以查看某个项是否存在，也可以在哈希表中查找特定项，还可以插入和删除项。
 
-###How Hash Tables Work? 哈希表是如何工作的?
+### How Hash Tables Work? 哈希表是如何工作的?
 
 ![](/img/15428804726570.jpg)
 A small phone book as a hash table — wikipedia 一个小电话簿作为哈希表-维基百科
@@ -681,7 +681,7 @@ There’s no linear search, no binary search, no traversing a list. We just go s
 没有线性搜索，没有二进制搜索，没有遍历列表。我们直接得到我们需要的元素。
 
 
-###Managing Collision 管理冲突
+### Managing Collision 管理冲突
 
 
 We can expect that a hash collision will arise; when we get the same hash value for different keys. But, how to manage it?
@@ -711,7 +711,7 @@ This is what is called the “Separate Chaining Technique” in hash tables. Now
 这就是散列表中的“独立链接技术”。现在，还有其他一些管理哈希表内冲突的技术，包括开放寻址、布谷鸟哈希、跳房子和罗宾汉哈希。
 
 
-###Writing Hash Functions 写哈希函数
+### Writing Hash Functions 写哈希函数
 
 
 When you want to store key-value pairs using hash table data structure, It’s probably most of objects already have hash function. The default behavior is usually returns an integer; calculated from the memory address of that object.
@@ -755,7 +755,7 @@ It’s an unordered collection of items, with no repeated values.
  A grocery bag of food 一袋食品
 
 
-###Set Implementation Set实现
+### Set Implementation Set实现
 
 
 Sets are actually use the same idea of hash tables data structure most of the time. But, instead of key-value pairs (hashing a key and store it’s value), when you’re using a set, the key is also considered as the value (or the value is assigned to a dummy or a default value).
@@ -768,7 +768,7 @@ Sets can be implemented using a self-balancing binary search tree for sorted set
 可以使用自平衡二叉搜索树实现排序集，也可以使用散列表实现未排序集。
 
 
-###The Advantage of Sets 集合的好处
+### The Advantage of Sets 集合的好处
 
 
 Unlike an array, or values in an associative array, or a linked list, sets do not allow duplicates. You cannot add the same object, the same value twice to the same set.
@@ -798,12 +798,12 @@ It’s a collection of nodes, where each node might link to one, or two, or more
 ![](/img/15428807422852.jpg)
 A Tree — richardkho.com
 
-###Tree Terminologies 树术语
+### Tree Terminologies 树术语
 There are some terminologies that come with the tree. You can find more about them here. They are essential to understand and work with trees.
 这棵树附带了一些术语。你可以在这里找到更多关于他们的信息。它们对于理解和研究树木是必不可少的。
 
 
-###Binary Trees 二叉树
+### Binary Trees 二叉树
 
 
 A binary tree is just a tree with maximum of two child nodes for any parent node. Binary trees are often used for implementing a wonderfully searchable structure called a “Binary Search Tree” or “BST”.
@@ -824,7 +824,7 @@ It’s a specific type of binary tree, where the left child node is less than it
 A Binary Search Tree (BST) — wikipedia 一个二叉搜索树(BST) -维基百科
 
 
-###How Binary Search Trees Work? 二叉搜索树是如何工作的?
+### How Binary Search Trees Work? 二叉搜索树是如何工作的?
 The the rule is that the left child node must be less than its parents, and a right child node must be greater than its parents, and that rule follows all the way down in the tree.
 规则是，左子节点必须小于其父节点，而右子节点必须大于其父节点，这个规则一直延续到树的下面。
 
@@ -836,33 +836,33 @@ So, It is a data structure that naturally stays sorted and it’s sometimes call
 因此，它是一种自然保持排序的数据结构，有时被称为“排序树”或“有序树”。
 
 
-###Storing Nodes As Key-Value Pairs 将节点存储为键-值对
+### Storing Nodes As Key-Value Pairs 将节点存储为键-值对
 
 
 A binary search trees are often used to store key value pairs, meaning, the nodes consists of a key, and an associated value. And it’s the key that would be used to sort the nodes accordingly in a binary search tree.
 二叉搜索树通常用于存储键值对，也就是说，节点由键和关联值组成。这是在二叉搜索树中对节点进行排序的关键。
 
 
-###Duplicates 副本
+### Duplicates 副本
 
 You can’t have duplicate keys, just as you don’t have duplicate keys in a hash table or even an array.
 不能有重复键，就像哈希表甚至数组中不能有重复键一样。
 
 
-###Adding & Accessing Nodes 添加和访问节点
+### Adding & Accessing Nodes 添加和访问节点
 
 
 Adding & Accessing nodes follows the same rule mentioned above. If the current node is less than, then go right, if greater than, go left.
 添加和访问节点遵循上述相同的规则。如果当前节点小于，则向右，如果大于，则向左。
 
 
-###Retrieve Nodes In Order 按顺序检索节点
+### Retrieve Nodes In Order 按顺序检索节点
 
 
 The other benefit is binary search trees are staying sorted. So, If we retrieve the items from a left to the right, bottom to top, we will get them all out in order.
 另一个好处是二叉搜索树可以保持排序。所以，如果我们从左到右，从下到上检索项目，我们就会按顺序得到它们。
 
-###Unbalanced Tree 不平衡的树
+### Unbalanced Tree 不平衡的树
 It’s when the tree has more levels of nodes on the right hand side than on the left (or vice-versa).
 当树的右边的节点比左边的节点多时(反之亦然)。
 
@@ -875,7 +875,7 @@ In this case we say that our tree is unbalanced; There are more levels on one si
 在这种情况下，我们说树是不平衡的;一边的能级比另一边的能级多。我们需要执行更多的检查来查找、插入或删除右边的任何值，而不是左边的值(反之亦然)。
 
 
-###Binary Search Tree Implementations 二叉搜索树的实现
+### Binary Search Tree Implementations 二叉搜索树的实现
 
 What we have been talking about is the abstract idea of a binary search tree data structure. But, there are several implementations of this binary search tree idea that are self-balancing binary search trees.
 我们一直在讨论的是二进制搜索树数据结构的抽象概念。但是，这个二叉搜索树的思想有几个实现是自平衡的二叉搜索树。
@@ -888,7 +888,7 @@ Examples of self-balancing trees could be: Red-Black, AVL or Adelson-Velskii and
 自我平衡树的例子可以是:红黑树、AVL或Adelson-Velskii和Landis '、Splay树、代罪羔羊树等等。
 
 
-###Binary Search Tree Vs Hash Table 二叉搜索树Vs哈希表
+### Binary Search Tree Vs Hash Table 二叉搜索树Vs哈希表
 
 
 Both are fast for insertion, fast for deletion, fast for accessing any element even at large sizes. But, because binary search trees stay sorted, they allow us to get all the items out of the tree in order, where the hash table doesn’t guarantee a specific order.
@@ -914,12 +914,12 @@ It’s a specific type of binary tree, where we add nodes from top to bottom, le
 >Therefore, we completely fill out any level before moving on to the next. So we don’t have to worry about the tree becoming unbalanced like a binary search tree can.
 因此，在进入下一个关卡之前，我们将完全填充任何关卡。所以我们不用担心树会像二叉搜索树那样变得不平衡。
 
-###Min Vs Max Heap
+### Min Vs Max Heap
 A min heap states that any child node must be greater than (or equal) its parent node, while a max heap states that any child node must be less than (or equal) its parent node. However, we don’t care if a node is less than or greater than it’s sibling.
 最小堆声明任何子节点必须大于(或等于)它的父节点，而最大堆声明任何子节点必须小于(或等于)它的父节点。但是，我们不关心节点是否小于或大于它的兄弟节点。
 
 
-###How Heaps Work? 堆如何工作的呢?
+### How Heaps Work? 堆如何工作的呢?
 
 
 So, In case of Min Heap:
@@ -934,7 +934,7 @@ So, In case of Min Heap:
 This little swapping of nodes is how a heap keeps itself organized.
 这种小的节点交换是堆保持自身组织的方式。
 
-###Heap Is Not A Fully Sorted 堆不是完全排序的
+### Heap Is Not A Fully Sorted 堆不是完全排序的
 Unlike a binary search tree, which does stay sorted, and where we can easily traverse the tree and retrieve everything out in order.
 与二叉搜索树不同，二叉搜索树是保持排序的，我们可以轻松地遍历树并按顺序检索所有内容。
 
@@ -969,21 +969,21 @@ A graph of a social network
 社交网络的图表
 
 
-###Graph Theory In Mathematics 数学中的图论
+### Graph Theory In Mathematics 数学中的图论
 
 
 Because graphs in computer science are so closely linked to graph theory in mathematics. It is common to hear mathematical terms used. So, In graph theory, we call the nodes “vertices”, and the links between them are referred to as “edges”.
 因为计算机科学中的图形与数学中的图形理论是紧密联系在一起的。使用数学术语是很常见的。因此，在图论中，我们称节点为“顶点”，它们之间的链接称为“边”。
 
 
-###Graphs Usage  图使用
+### Graphs Usage  图使用
 
 
 We could use a graph to model a social network with each node a person. Or, modeling the distances between cities. We could model a ethernet network in an office, or in an entire building, or a city.
 我们可以使用一个图形来为每个人的节点建立一个社交网络模型。或者，为城市之间的距离建模。我们可以在办公室、整栋大楼或一座城市建立以太网络模型。
 
 
-###Direct & Undirect Graphs 直接和非直接图
+### Direct & Undirect Graphs 直接和非直接图
 
 
 We can also say whether those edges should have a direction to them or not.
@@ -997,7 +997,7 @@ In other situations, you might want to be able to follow that edge, that link, i
 在其他情况下，你可能想沿着这条边，这条连杆，在任意方向;节点A连接到节点B，节点B也连接到节点A。
 
 
-###Weighted Graphs 加权图
+### Weighted Graphs 加权图
 
 
 You can also give every edge a weight; associating a number, with each of the edges.
@@ -1015,7 +1015,7 @@ Before diving into the abstract data types, what they are, and the difference be
 在深入研究抽象数据类型之前，先了解它们是什么，以及它们与其他概念之间的区别。让我们定义数据类型的含义。
 
 
-###Data Type 数据类型
+### Data Type 数据类型
 
 >A variable’s data type determines the values it may contain, plus the operations that may be performed on it.变量的数据类型决定了它可能包含的值，以及可能对其执行的操作。
 
@@ -1023,7 +1023,7 @@ Data Types consists of: Primitive, Complex or Composite, and Abstract Data Types
 数据类型包括:基本数据类型、复杂数据类型或复合数据类型以及抽象数据类型。
 
 
-###An Abstract Data Type (ADT) 抽象数据类型(ADT)
+### An Abstract Data Type (ADT) 抽象数据类型(ADT)
 
 
 It’s a data type, just like integers and booleans primitive data types. An ADT consist not only of operations, but also of values of the underlying data and of constraints on the operations.
@@ -1041,7 +1041,7 @@ Lists, stacks, queues, and more are all abstract data types.
 列表、堆栈、队列等等都是抽象数据类型。
 
 
-###An Abstract Data Type & Data Structure 抽象数据类型和数据结构
+### An Abstract Data Type & Data Structure 抽象数据类型和数据结构
 
 
 ADT is not an alternative to a data structure, they are different concepts.
@@ -1058,7 +1058,7 @@ Data structures can implement one or more particular abstract data types (ADT), 
 数据结构可以实现一个或多个特定的抽象数据类型(ADT)， ADT指定可以在数据结构上执行的操作。
 
 
-###An Abstract Data Type Is NOT An Abstract Class 抽象数据类型不是抽象类
+### An Abstract Data Type Is NOT An Abstract Class 抽象数据类型不是抽象类
 
 Both have nothing to do with each other. An abstract class defines only the operations, sometimes with comments that describe the constraints, leaving the actual implementation to the inheriting classes.
 两者都与对方无关。抽象类只定义操作，有时还带有描述约束的注释，将实际实现留给继承类。
@@ -1070,7 +1070,7 @@ But, this is not always the case. For example, Java has a stack class, It is a r
 但情况并非总是如此。例如，Java有一个栈类，它是一个常规的具体类，但是栈也是一个抽象的数据类型，也就是说，它代表了一个后进先出的数据结构。stack是一个具体的类，也是一个抽象的数据类型。
 
 
-###An Abstract Data Types Is A Theoretical Concept 抽象数据类型是一个理论概念
+### An Abstract Data Types Is A Theoretical Concept 抽象数据类型是一个理论概念
 
 
 An abstract data type (ADT) is a theoretical concept that’s irrelevant to programming keywords.
@@ -1084,7 +1084,7 @@ So, If we have a stack, we have a last in, first out data structure, that we can
 ##Conclusion 结论
 
 
-###Deciding on The Data Structure 决定数据结构
+### Deciding on The Data Structure 决定数据结构
 
 
 There are some key questions you need to ask before deciding on the data structure
@@ -1099,7 +1099,7 @@ There are some key questions you need to ask before deciding on the data structu
 If any place where you only have trivial amounts of data, it isn’t going to matter very much. Unless of course, those amounts of data change so frequently, or you have large amounts of data.
 如果任何地方只有少量的数据，那就没有什么关系了。当然，除非这些数据量变化非常频繁，或者您有大量的数据。
 
-###Immutable Data Structures 不可变的数据结构
+### Immutable Data Structures 不可变的数据结构
 Now, a general principle that immutable or fixed size data structures tend to be faster and smaller in memory than mutable ones.
 现在，一个普遍的原则是，不可变或固定大小的数据结构在内存中往往比可变的结构更快更小。
 
@@ -1112,14 +1112,14 @@ The pitfalls of having a data structure with many features (non-restricted) is t
 具有许多特性(不受限制的)的数据结构的缺陷是编译器不能分配理想数量的空间，因此，它必须引入开销来支持数据结构的灵活性(比如不同的数据类型，…)。
 
 
-###Improve Your Code Performance 提高代码性能
+### Improve Your Code Performance 提高代码性能
 
 
 If you’re looking at existing code to see what to improve on, then see whatever holds the most data. There is no better way to really get the most out of these data structures than when you see some of the performance improvements you can get, just from simply changing from one structure to another.
 如果您正在查看现有代码，以查看需要改进的地方，那么请查看保存最多数据的地方。当您看到可以通过简单地从一种结构更改到另一种结构来获得一些性能改进时，没有更好的方法可以真正最大限度地利用这些数据结构。
 
 
-###Differences In Languages 语言的差异
+### Differences In Languages 语言的差异
 
 
 The algorithms used with each data structure differs from one language to another, and the actual implementation of the data structure differs from one language to another. So, It’s worth to look closely at your language documentation.
