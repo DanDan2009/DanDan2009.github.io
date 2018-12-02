@@ -32,6 +32,8 @@ It doesn’t start without asking: What the heck data structure is?
 
 The intentional arrangement means the arrangement done on purpose to impose, to enforce, some kind of systematic organization on the data.
 故意安排是指有目的的安排，目的是对数据进行某种系统的组织。
+故意安排是指故意对数据进行某种系统组织的安排。
+故意安排是指有意安排，强制执行某种系统的数据组织。
 
 Because it’s useful, it makes our lives easier, and it’s easy to manage when you keep related information together.
 因为它是有用的，它使我们的生活更容易，当你把相关的信息放在一起时，它很容易管理。
@@ -90,8 +92,9 @@ The array is the most fundamental, the most commonly used data structure across 
 
 ###  Indexes 索引
 The indexes are in order, they are zero-based index in most languages, but, that’s not the case with other few languages.
+索引是按顺序排列的，在大多数语言中它们是基于零的索引，但在其他少数语言中并非如此。
 
-###  Size 的尺寸
+###  Size 尺寸
 
 The simplest arrays are fixed size, also called immutable, meaning unchangeable arrays. They can be created initially at any size. But once the array is created, you can’t add or remove elements from it.
 最简单的数组是固定大小的，也称为不可变数组，意思是不能改变的数组。它们最初可以以任何大小创建。但是一旦创建了数组，就不能从其中添加或删除元素。
@@ -162,7 +165,7 @@ So, Using Jagged Arrays, we can get the average of sales in a month by grabbing 
 因此，使用交错数组，我们可以得到一个月的平均销售额，通过抓取当月的所有销售额，将它们相加，然后除以当月的天数，而不需要添加逻辑来计算应该忽略的天数。
 
 
-##Resizable Arrays 可调整大小的数组
+## Resizable Arrays 可调整大小的数组
 
 
 Most languages provide some kind of resizeable array, or dynamic array, or mutable. In Java, the standard array is fixed-size and a fixed data type, but, you can also create a resizeable array using ArrayList.
@@ -184,7 +187,7 @@ The way of shifting, differs from language to another, some will be shifting ite
 转换的方式，根据语言的不同，有些会在适当的位置移动项，但是，有些只会将旧数组的全部内容复制到一个新数组中，同时添加或删除项。
 
 
-##Sorting Arrays 排序数组
+## Sorting Arrays 排序数组
 
 
 Sorting is always computationally intensive, you might need to do it but we want to minimize it. So, keeping aware about how much data we have and how often we’re asking to sort might lead us into choosing different data structures.
@@ -247,7 +250,7 @@ If there is no order, no predictable sequence to the values in the array, then, 
 
 
 So, data must be ordered in a way so that we can use an algorithm other than linear search. Therefore, having some kind of order to those elements is more and more significant.
-因此，数据的排序方式必须是线性搜索之外的算法。因此，对这些要素进行某种排序越来越重要。
+因此，数据必须以某种方式排序，这样我们才能使用线性搜索之外的算法。因此，对这些元素进行排序变得越来越重要
 
 
 ###  The Inherit Challenge of Data Structures 数据结构的继承挑战
