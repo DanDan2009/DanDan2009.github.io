@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:       数据结构-深入到数据结构(第1部分)
+title:       数据结构1-深入到数据结构
 subtitle:   " Data Structures — Diving Into Data Structures (Part 1)"
 date:       2018-11-22 12:00:00
 author:     "Dan"
