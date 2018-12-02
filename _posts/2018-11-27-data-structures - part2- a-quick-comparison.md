@@ -4,7 +4,7 @@ title:       数据结构2-快速比较
 subtitle:   " Data Structures — A Quick Comparison (Part 2)"
 date:       2018-11-27 12:00:00
 author:     "Dan"
-header-img: "img/diving-into-data-structures-part1.jpg"
+header-img: "img/a-quick-comparison.jpg"
 tags:
     - 算法
     - 数据结构
