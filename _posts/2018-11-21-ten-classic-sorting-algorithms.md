@@ -7,8 +7,7 @@ author:     "Dan"
 header-img: "img/ten-classic-sorting-algorithms.jpg"
 tags:
     - 翻译
-    - 英语学习
-    - 方法论
+    - 算法
 
 ---
 
