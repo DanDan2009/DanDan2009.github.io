@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      " Optimizing App Startup Time"
-subtitle:   " Optimizing App Startup Time"
+subtitle:   "优化App启动时间"
 date:      2018-12-18 21:40:00
 author:     "Dan"
 header-img: "img/optimizing-app-startup-time.jpg"
