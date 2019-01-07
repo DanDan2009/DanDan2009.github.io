@@ -8,8 +8,6 @@ header-img: "img/optimizing-app-startup-time.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
-    - ARTS
-    - Algorihm
     - iOS
 ---
 
