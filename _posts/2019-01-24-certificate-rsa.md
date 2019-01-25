@@ -1,7 +1,7 @@
 ---
 layout:     post  
-title:      " 公钥、密码、https、 iOSAPP签名原理"
-subtitle:   "公钥、密码、https、  iOSAPP签名原理 资料整理"
+title:      " 非对称加密、https、 iOSAPP签名原理"
+subtitle:   "非对称加密、https、  iOSAPP签名原理 资料整理"
 date:      2019-01-24 21:40:00
 author:     "Dan"
 header-img: "img/2019-01-24-certificate-rsa.jpg"
@@ -12,7 +12,7 @@ tags:
 ---
 
 
-### 公钥、密码、https、 iOS证书
+### 非对称加密、https、 iOS证书
 
 之前也看了一些加密、证书、RSA、https的东西，但是一直没有贯通，理解的不是特别清楚，今天整理一下。
 ### 加密
