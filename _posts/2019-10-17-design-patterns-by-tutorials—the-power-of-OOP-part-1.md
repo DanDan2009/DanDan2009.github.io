@@ -1,7 +1,7 @@
 ---
 layout:     post  
 title:      Design patterns by Tutorials— The power of OOP (part 1)
-subtitle:   设计模式之旅--OOP的力量
+subtitle:   设计模式之旅--OOP的力量1
 date:      2019-10-17 21:40:00
 author:     "Dan"
 header-img: "img/design-patterns-by-tutorials%E2%80%94the-power-of-OOP-part-1.jpg"
@@ -13,7 +13,7 @@ tags:
 
 
 ## Design patterns by Tutorials— The power of OOP (part 1)
-通过教程设计模式——OOP的力量(第1部分)
+
 
 Prerequisites — This blog series requires an intermediate level of expertise in object-oriented programming. You should have basic knowledge about class, object, constructor, inheritance, value and reference type. An intermediate will gain knowledge and experts will sharpen his or her knowledge by reading this series from start to finish.
 先决条件——本系列博客需要具备面向对象编程的中级专业知识。您应该对类、对象、构造函数、继承、值和引用类型有基本的了解。一个中级将获得知识和专家将锐化他或她的知识阅读本系列从开始到结束。
