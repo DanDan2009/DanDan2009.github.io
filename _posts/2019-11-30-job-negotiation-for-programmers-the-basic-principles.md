@@ -1,17 +1,14 @@
 ---
 layout:     post
-title:      "ARTS #0304"
-subtitle:   "ARTS #034"
-date:       2019-10-31 20:52:00
+title:      "Job negotiation for programmers: the basic principles"
+subtitle:   "程序员找工作谈判的基本原则"
+date:       2019-12-10 19:40:00
 author:     "Dan"
-header-img: "img/post-bg-arst034.jpeg
-"
+header-img: "img/job-negotiation-for-programmers-the-basic-principles.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
-    - ARTS
-    - Algorihm
-    - iOS
+    - 翻译
 ---
 
 
