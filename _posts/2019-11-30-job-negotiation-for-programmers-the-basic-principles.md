@@ -4,7 +4,7 @@ title:      Job negotiation for programmers: the basic principles
 subtitle:   程序员找工作谈判的基本原则
 date:       2019-12-10 09:40:00
 author:     "Dan"
-header-img: "img/job-negotiation-for-programmers-the-basic-principles.jpg"
+header-img: "img/principles.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
