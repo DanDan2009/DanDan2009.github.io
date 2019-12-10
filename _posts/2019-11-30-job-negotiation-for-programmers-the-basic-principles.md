@@ -1,15 +1,20 @@
 ---
-layout:     post  
-title:      Job negotiation for programmers: the basic principles
-subtitle:   程序员找工作谈判的基本原则
-date:       2019-12-10 09:40:00
+layout:     post
+title:      "ARTS #0304"
+subtitle:   "ARTS #034"
+date:       2019-10-31 20:52:00
 author:     "Dan"
-header-img: "img/principles.jpg"
+header-img: "img/post-bg-arst034.jpeg
+"
 header-mask: 0.3
 catalog:    true
 tags:
-    - 翻译
+    - ARTS
+    - Algorihm
+    - iOS
 ---
+
+
 
 ## Job negotiation for programmers: the basic principles
 程序员找工作谈判的基本原则
